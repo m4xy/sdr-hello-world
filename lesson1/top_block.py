@@ -3,7 +3,7 @@
 ##################################################
 # GNU Radio Python Flow Graph
 # Title: Top Block
-# Generated: Tue Feb  5 14:19:23 2019
+# Generated: Thu May 16 11:30:20 2019
 ##################################################
 
 if __name__ == '__main__':
@@ -43,7 +43,7 @@ class top_block(grc_wxgui.top_block_gui):
         ##################################################
         # Variables
         ##################################################
-        self.samp_rate = samp_rate = 10e6
+        self.samp_rate = samp_rate = 20e6
         self.channel_width = channel_width = 200e3
         self.channel_freq = channel_freq = 96.3e6
         self.center_freq = center_freq = 97.9e6
